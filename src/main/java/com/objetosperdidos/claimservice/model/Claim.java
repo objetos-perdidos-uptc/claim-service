@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @Builder 
 @NoArgsConstructor 
 @AllArgsConstructor 
-@Document(collation = "claims")
+@Document(collection = "claims")
 
 public class Claim {
     @Id 
